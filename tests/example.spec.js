@@ -1,7 +1,9 @@
 // @ts-check
-import { test, expect } from '@playwright/test';
+import { test, expect, devices } from '@playwright/test';
 
 test('has title', async ({ page }) => {
+
+  console.log(devices);
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.

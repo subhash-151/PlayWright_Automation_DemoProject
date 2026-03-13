@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test'); 
+
 // importing two things: test function to create a test & expect for assertion
 
 test('open Google page & check title', async ({ page }) => {
