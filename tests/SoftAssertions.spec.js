@@ -21,6 +21,7 @@ test('soft assertion test', async ({ page }) => {
 
      const usernameInput = page.locator('#user-name');
     const passwordInput = page.locator('#password');
+    
     const loginButton = page.locator('#login-button');
 
 });
